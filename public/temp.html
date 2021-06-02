@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="description" content="Description" />
+    <meta name="keywords" content="Keywords" />
+    <meta name="theme-color" content="#317EFB" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      data-href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"
+    />
+    <link rel="preload" as="image" href="/images/pexels-tony-cowen.jpg" />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/_next/image?url=%2Fimages%2Flogo.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=384&amp;q=75 2x"
+    />
+    <meta name="next-head-count" content="14" />
+    <link
+      rel="preload"
+      href="/_next/static/css/533421fff10f7163ad37.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/533421fff10f7163ad37.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="/_next/static/css/97d8d8ed1445e7ac4629.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/97d8d8ed1445e7ac4629.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="/_next/static/css/b9ea886e7367e3f27109.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/b9ea886e7367e3f27109.css"
+      data-n-p=""
+    />
+    <noscript data-n-css=""></noscript>
+    <link
+      rel="preload"
+      href="/_next/static/chunks/webpack-9c2e660a3e060554357f.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/framework-3fd213eb7b95a8372e3a.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/commons-a093bf030a58c18cab08.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/main-873bf5508be8efca1561.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/958-fcb349639779cbc22b73.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/pages/_app-f4b9a9068a21751f7877.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/814-b1189742581519d3af21.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/930-bf7176ead3e8b1f61377.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="/_next/static/chunks/pages/index-802e1c14d9f3d6321e16.js"
+      as="script"
+    />
+    <style
+      data-href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    >
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc-.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxM.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc-.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc-.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2)
+          format("woff2");
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2)
+          format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2)
+          format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="__next">
+      <div class="BackgroundImage_bgWrap__5wjoE">
+        <div
+          style="
+            display: block;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            box-sizing: border-box;
+            margin: 0;
+          "
+        >
+          <img
+            alt="Background image"
+            src="/images/pexels-tony-cowen.jpg"
+            decoding="async"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              box-sizing: border-box;
+              padding: 0;
+              border: none;
+              margin: auto;
+              display: block;
+              width: 0;
+              height: 0;
+              min-width: 100%;
+              max-width: 100%;
+              min-height: 100%;
+              max-height: 100%;
+              object-fit: cover;
+            "
+          />
+        </div>
+      </div>
+      <nav
+        class="navbar-light navbar navbar-expand-lg bg-white p-3"
+        role="navigation"
+      >
+        <div class="container-fluid">
+          <a href="/pl"
+            ><div class="navbar-brand">
+              <div
+                style="
+                  display: inline-block;
+                  max-width: 100%;
+                  overflow: hidden;
+                  position: relative;
+                  box-sizing: border-box;
+                  margin: 0;
+                "
+              >
+                <div
+                  style="
+                    box-sizing: border-box;
+                    display: block;
+                    max-width: 100%;
+                  "
+                >
+                  <img
+                    style="
+                      max-width: 100%;
+                      display: block;
+                      margin: 0;
+                      border: none;
+                      padding: 0;
+                    "
+                    alt=""
+                    aria-hidden="true"
+                    role="presentation"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM1IiBoZWlnaHQ9IjQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+                  />
+                </div>
+                <img
+                  alt="living by sail logo"
+                  srcset="
+                    /_next/image?url=%2Fimages%2Flogo.png&amp;w=256&amp;q=75 1x,
+                    /_next/image?url=%2Fimages%2Flogo.png&amp;w=384&amp;q=75 2x
+                  "
+                  src="/_next/image?url=%2Fimages%2Flogo.png&amp;w=384&amp;q=75"
+                  decoding="async"
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    box-sizing: border-box;
+                    padding: 0;
+                    border: none;
+                    margin: auto;
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                  "
+                />
+              </div></div></a
+          ><button
+            type="button"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav w-100 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <div class="nav-link">
+                  <a href="/pl/announcements">OGŁOSZENIA</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="nav-link"><a href="/pl/contact">KONTAKT</a></div>
+              </li>
+              <li class="nav-item">
+                <a class="text-white me-1" href="/pl/signup"
+                  ><button
+                    class="btn btn-primary btn-rounded"
+                    type="button"
+                    role="button"
+                  >
+                    Zarejestruj
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="text-white" href="/pl/signin"
+                  ><button
+                    class="btn btn-primary btn-rounded"
+                    type="button"
+                    role="button"
+                  >
+                    Zaloguj
+                  </button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section
+        class="container-fluid index_introduction__1ErXt"
+        id="introduction"
+      >
+        <h1 class="text-center pt-5">Projekt sailman</h1>
+      </section>
+      <section class="container-fluid index_aboutUs__1_ixX" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h2><small>Who We Are</small>About<br />Our Blog</h2>
+            </div>
+            <div class="col-md-4">
+              <p>
+                To enjoy good health, to bring true happiness to one&#x27;s
+                family, to bring peace to all, one must first discipline and
+                control one&#x27;s own mind. If a man can control his mind he
+                can find the way to Enlightenment, and all wisdom and virtue
+                will naturally come to him.
+              </p>
+              <p>
+                Saving our planet, lifting people out of poverty, advancing
+                economic growth... these are one and the same fight. We must
+                connect the dots between climate change, water scarcity, energy
+                shortages, global health, food security and women&#x27;s
+                empowerment. Solutions to one problem must be solutions for all.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <p>
+                Our greatest happiness does not depend on the condition of life
+                in which chance has placed us, but is always the result of a
+                good conscience, good health, occupation, and freedom in all
+                just pursuits.
+              </p>
+              <p>
+                Being in control of your life and having realistic expectations
+                about your day-to-day challenges are the keys to stress
+                management, which is perhaps the most important ingredient to
+                living a happy, healthy and rewarding life.
+              </p>
+              <p><a href="#" class="btn btn-primary">Explore More</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-center index_testimonials__1Yb_S">
+        <div class="container">
+          <h2 class="mb-5">What people are saying...</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                <img
+                  class="img-fluid rounded-circle mb-3"
+                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                  alt=""
+                />
+                <h5>Fred S.</h5>
+                <p class="font-weight-dark mb-0">
+                  &quot;Lorem ipsum dolor sit amet!&quot;
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                <img
+                  class="img-fluid rounded-circle mb-3"
+                  src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350"
+                  alt=""
+                />
+                <h5>Margaret E.</h5>
+                <p class="font-weight-dark mb-0">
+                  &quot;Lorem ipsum dolor sit amet&quot;
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                <img
+                  class="img-fluid rounded-circle mb-3"
+                  src="https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350"
+                  alt=""
+                />
+                <h5>Sarah W.</h5>
+                <p class="font-weight-dark mb-0">
+                  &quot;Lorem ipsum dolor sit amet!&quot;
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-primary text-white index_services__17Y7z">
+        <div class="container">
+          <h2>Services</h2>
+          <p class="mb-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form.
+          </p>
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <h6>Ex cupidatat eu</h6>
+              <p class="">
+                Ex cupidatat eu officia consequat incididunt labore occaecat ut
+                veniam labore et cillum id et.
+              </p>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <h6>Tempor aute occaecat</h6>
+              <p class="">Tempor aute occaecat pariatur esse aute amet.</p>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <h6>Voluptate ex irure</h6>
+              <p class="">
+                Voluptate ex irure ipsum ipsum ullamco ipsum reprehenderit non
+                ut mollit commodo.
+              </p>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <h6>Tempor commodo</h6>
+              <p class="">
+                Tempor commodo nostrud ex Lorem occaecat duis occaecat minim.
+              </p>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <h6>Et fugiat sint occaecat</h6>
+              <p class="">
+                Et fugiat sint occaecat voluptate incididunt anim nostrud ea
+                cillum cillum consequat.
+              </p>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <h6>Et labore tempor et</h6>
+              <p class="">Et labore tempor et adipisicing dolor.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-center text-white index_callToAction__2Ps3s">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 mx-auto">
+              <h2 class="mb-4">Ready to get started?</h2>
+            </div>
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+              <form>
+                <div class="form-row">
+                  <div class="col-12 col-md-9 mb-2 mb-md-0">
+                    <input
+                      type="email"
+                      class="form-control myform form-control-lg"
+                      placeholder="Enter your email..."
+                    />
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <button
+                      type="submit"
+                      class="btn mybtn btn-block btn-lg btn-danger"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        class="container-fluid text-white bg-success pt-5 pb-5"
+        style="position: relative; bottom: 0; left: 0"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="logo-part">
+                    <img
+                      src="https://i.ibb.co/sHZz13b/logo.png"
+                      class="w-50 logo-footer"
+                    />
+                    <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                    <p>
+                      Use this tool as test data for an automated system or find
+                      your next pen
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 px-4">
+                  <h6>About Company</h6>
+                  <p>But horizontal lines can only be a full pixel high.</p>
+                  <a href="#" class="btn-footer"> <!-- -->More Info<!-- --> </a
+                  ><br /><a href="#" class="btn-footer"> <!-- -->Contact Us</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6 px-4">
+                  <h6>Help us</h6>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <ul>
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#"> About</a></li>
+                        <li><a href="#"> Service</a></li>
+                        <li><a href="#"> Team</a></li>
+                        <li><a href="#"> Help</a></li>
+                        <li><a href="#"> Contact</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 px-4">
+                      <ul>
+                        <li><a href="#"> Cab Faciliy</a></li>
+                        <li><a href="#"> Fax</a></li>
+                        <li><a href="#"> Terms</a></li>
+                        <li><a href="#"> Policy</a></li>
+                        <li><a href="#"> Refunds</a></li>
+                        <li><a href="#"> Paypal</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h6>Newsletter</h6>
+                  <div class="social">
+                    <a href="#"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i></a
+                    ><a href="#"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                  <form class="form-footer my-3">
+                    <input
+                      type="text"
+                      placeholder="search here...."
+                      name="search"
+                    /><input type="button" value="Go" />
+                  </form>
+                  <p>That&#x27;s technology limitation of LCD monitors</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="float-end">
+          <p>
+            Version:
+            <!-- -->0.2.13
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "__lang": "pl",
+            "__namespaces": {
+              "common": {
+                "Home": "Strona główna",
+                "Announcements": "Ogłoszenia",
+                "Announcement": "Ogłoszenie",
+                "User": "Użytkownik",
+                "my_account": "Moje konto",
+                "Dashboard": "Panel",
+                "Signout": "Wyloguj",
+                "Contact": "Kontakt",
+                "Add announcement": "Dodaj ogłoszenie",
+                "Signup": "Zarejestruj",
+                "Signin": "Zaloguj",
+                "Feedback": "Opinia",
+                "feedback_msg": "(Opcjonalnie) Co powinniśmy zmienić?",
+                "Submit": "Wyślij",
+                "Search": "Szukaj",
+                "forgot password": "zapomniałem hasła",
+                "Password reset": "Resetowanie hasła",
+                "OR": "LUB",
+                "E-mail": "Adres e-mail",
+                "Password": "Hasło",
+                "new password": "Nowe hasło",
+                "Change password": "Zmień hasło",
+                "Login with Google": "Zaloguj z Google",
+                "Name": "Imię",
+                "email_sent": "Wysłano E-mail z linkiem aktywacyjnym. Wygasa za 10 minut.",
+                "email_reset_sent": "Wysłano E-mail z linkiem resetującym hasło. Link wygasa za 10 minut.",
+                "Contact form": "Formularz kontaktowy",
+                "Message": "Wiadomość",
+                "Sent": "Wysłano",
+                "Thank you for contacting us.": "Dziękujemy za wysłanie wiadomości.",
+                "Activate Account": "Aktywuj konto",
+                "activate_success": "Pomyślnie aktywowano konto. Można się teraz zalogować.",
+                "Manage": "zarządzaj",
+                "Manage announcements": "Zarządzaj ogłoszeniami"
+              },
+              "home": { "Sailman project": "Projekt sailman" }
+            }
+          },
+          "__N_SSG": true
+        },
+        "page": "/",
+        "query": {},
+        "buildId": "CPxR9JN3dpnbsGgZUD46J",
+        "isFallback": false,
+        "gsp": true,
+        "locale": "pl",
+        "locales": ["en", "pl"],
+        "defaultLocale": "en"
+      }
+    </script>
+    <script
+      nomodule=""
+      src="/_next/static/chunks/polyfills-9859976858e376755222.js"
+    ></script>
+    <script
+      src="/_next/static/chunks/webpack-9c2e660a3e060554357f.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/framework-3fd213eb7b95a8372e3a.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/commons-a093bf030a58c18cab08.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-873bf5508be8efca1561.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/958-fcb349639779cbc22b73.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/_app-f4b9a9068a21751f7877.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/814-b1189742581519d3af21.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/930-bf7176ead3e8b1f61377.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/index-802e1c14d9f3d6321e16.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/CPxR9JN3dpnbsGgZUD46J/_buildManifest.js"
+      async=""
+    ></script>
+    <script
+      src="/_next/static/CPxR9JN3dpnbsGgZUD46J/_ssgManifest.js"
+      async=""
+    ></script>
+  </body>
+</html>
