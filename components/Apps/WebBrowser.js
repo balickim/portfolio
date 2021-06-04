@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
-import Draggable from "react-draggable";
 import parse from "html-react-parser";
 
 const AppWindow = () => {
-  const [disabled, setDisabled] = useState(false);
   const [html, setHtml] = useState("");
 
   useEffect(() => {
@@ -22,25 +20,8 @@ const AppWindow = () => {
     setHtml(data);
   };
 
-  const toggleDraggable = () => setDisabled(!disabled);
-
   return (
-    <Draggable
-      onStart={toggleDraggable}
-      onStop={toggleDraggable}
-      defaultPosition={{ x: 100, y: 100 }}
-      disabled={disabled}
-      bounds="parent"
-    >
-      <div
-        style={{ width: 800, height: 600, overflowY: "scroll" }}
-        // className={!disabled ? "draggable" : null}
-      >
-        <div className="bg-gray-50 bg-opacity-25 p-4">
-          <p>{html && parse(html)}</p>
-        </div>
-      </div>
-    </Draggable>
+    <div className="bg-gray-50 bg-opacity-25 p-4">{html && parse(html)}</div>
   );
 };
 

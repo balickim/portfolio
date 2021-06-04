@@ -1,4 +1,4 @@
-const Dock = () => {
+const Dock = ({ launchApp }) => {
   return (
     <>
       <div
@@ -8,52 +8,10 @@ const Dock = () => {
         <div id="dock">
           <ul>
             <li>
-              <span>Address Book</span>
-              <a href="#">
-                <img src="/images/apple-icon.png" />
-              </a>
-            </li>
-            <li>
-              <span>App Store</span>
-              <a href="#">
-                <img src="/images/chrome_ico.png" />
-              </a>
-            </li>
-            <li>
-              <span>Chrome</span>
-              <a href="#">
-                <img src="/images/firefox.png" />
-              </a>
-            </li>
-            <li>
-              <span>Firefox</span>
-              <a href="#">
-                <img src="/images/MetroUI-Apps-Mac-iChat-icon.png" />
-              </a>
-            </li>
-            <li>
-              <span>Address Book</span>
-              <a href="#">
-                <img src="/images/apple-icon.png" />
-              </a>
-            </li>
-            <li>
-              <span>App Store</span>
-              <a href="#">
-                <img src="/images/chrome_ico.png" />
-              </a>
-            </li>
-            <li>
-              <span>Chrome</span>
-              <a href="#">
-                <img src="/images/firefox.png" />
-              </a>
-            </li>
-            <li>
-              <span>Firefox</span>
-              <a href="#">
-                <img src="/images/MetroUI-Apps-Mac-iChat-icon.png" />
-              </a>
+              <span>Browser</span>
+              <button onClick={launchApp}>
+                <img id="browser" src="/images/chrome_ico.png" />
+              </button>
             </li>
           </ul>
         </div>

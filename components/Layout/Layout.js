@@ -1,23 +1,31 @@
-import Router from "next/router";
-import Dock from "./Dock";
+import { useState } from "react";
 import dynamic from "next/dynamic";
 
-const AppWindow = dynamic(() => import("../AppWindow/AppWindow"));
+import Dock from "../Layout/Dock";
 
-Router.onRouteChangeStart = () => {
-  cursor: wait;
-};
-Router.onRouteChangeComplete = () => NProgress.done();
-Router.onRouteChangeError = () => NProgress.done();
+const AppWindow = dynamic(() => import("../AppWindow"));
 
 const Layout = ({ children }) => {
+  // const [browser, setBrowser] = useState(false);
+  const [apps, setApps] = useState({
+    browser: false,
+  });
+
+  const { browser } = apps;
+
+  const launchApp = (e) => {
+    console.log(e.target.id);
+    setApps({
+      ...apps,
+      [e.target.id]: e.target.id,
+    });
+  };
+
   return (
     <>
       {children}
-      <div className="w-screen h-screen">
-        <AppWindow />
-      </div>
-      <Dock />
+      {browser && <AppWindow browser />}
+      <Dock launchApp={launchApp} />
     </>
   );
 };
