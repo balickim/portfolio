@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 import { getLangFromUrl, useTranslatedPath, useTranslations } from "../i18n/utils";
+import SkillsList from "../components/SkillsList.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -14,19 +15,12 @@ const translatePath = useTranslatedPath(lang);
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+				title={t('about.header')}
+				tagline={t('about.subheader')}
+			/>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">{t('about.background.title')}</h2>
 				<div class="content">
 					<p>
 						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
@@ -48,16 +42,18 @@ const translatePath = useTranslatedPath(lang);
 					</p>
 				</div>
 			</section>
+
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">{t('about.education.title')}</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>{t('about.education.description')}</p>
 				</div>
 			</section>
+
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">{t('about.skills.title')}</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<SkillsList />
 				</div>
 			</section>
 		</main>
