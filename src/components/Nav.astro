@@ -3,9 +3,6 @@ import Icon from "./Icon.astro";
 import ThemeToggle from "./ThemeToggle.astro";
 import type { iconPaths } from "./IconPaths";
 import LanguagePicker from "./LanguagePicker.astro";
-import { Image } from 'astro:assets';
-
-import favicon from '../../public/favicon.svg';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
@@ -27,7 +24,7 @@ const iconLinks: {
 <nav>
     <div class="menu-header">
         <a href="/" class="site-title">
-            <Image src={favicon} alt="A bird sitting on a nest of eggs."/>
+            <img src={'favicon.svg'} alt="favicon"/>
             Michał Balicki
         </a>
         <menu-button>
