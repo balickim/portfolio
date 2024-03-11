@@ -11,16 +11,17 @@ import { getLangFromUrl } from "../i18n/utils";
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
+	imageUrl?: string | undefined;
 }
 
-const { title, description } = Astro.props;
+const { title, description, imageUrl } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
 ---
 
 <html lang={lang}>
 	<head>
-		<MainHead title={title} description={description} />
+		<MainHead title={title} description={description} imageUrl={imageUrl} />
 	</head>
 	<body>
 		<div class="stack backgrounds">
