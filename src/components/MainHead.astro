@@ -1,14 +1,18 @@
 ---
 import '../styles/global.css';
+import {getLangFromUrl, useTranslations} from "../i18n/utils";
 
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
 }
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 const {
-	title = 'Jeanine White: Personal Site',
-	description = 'The personal site of Jeanine White',
+	title = t('base.title'),
+	description = t('base.description'),
 } = Astro.props;
 ---
 
