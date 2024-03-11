@@ -91,11 +91,6 @@ const translatePath = useTranslatedPath(lang);
 		max-width: 54ch;
 	}
 
-	.content {
-		max-width: 65ch;
-		margin-inline: auto;
-	}
-
 	.content > :global(* + *) {
 		margin-top: 1rem;
 	}
@@ -152,6 +147,11 @@ const translatePath = useTranslatedPath(lang);
 
 		.content :global(blockquote) {
 			font-size: var(--text-2xl);
+		}
+
+		.content {
+			max-width: 65ch;
+			margin-inline: auto;
 		}
 	}
 </style>

@@ -29,6 +29,8 @@ export const ui = {
     'work.description': 'Sprawdź moje projekty',
 
     'about': 'O mnie',
+    'about.title': 'O mnie | Michał Balicki',
+    'about.description': 'O mnie',
 
     'contactCTA.title': 'Chcesz ze mną pracować?',
     'contactCTA.button': 'Wyślij mi wiadomość!',

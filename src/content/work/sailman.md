@@ -1,7 +1,7 @@
 ---
 title: Sailman
 publishDate: 2020-02-01 00:00:00
-img: /assets/sailman.jpg
+img: /assets/sailman.webp
 img_alt: Author Tony Cowen Pexels
 description: |
   Platforma webowa dla Żeglarzy

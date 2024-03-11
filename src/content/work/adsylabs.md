@@ -2,7 +2,7 @@
 title: Adsylabs
 publishDate: 2023-03-01 00:00:00
 img: /assets/adsylabs.webp
-img_alt: Author Tony Cowen Pexels
+img_alt: Jakub Janiak Adsylabs dashboard
 description: |
   Łączenie Klientów ze Specjalistami Marketingu
 tags:
