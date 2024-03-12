@@ -17,3 +17,7 @@ export function useTranslatedPath(lang: keyof typeof ui) {
     return !showDefaultLang && l === defaultLang ? path : `/${l}${path}`
   }
 }
+
+export function stripLang(pathname: string): string {
+  return pathname.replace(/^\/(en|pl)\/?/, '/');
+}

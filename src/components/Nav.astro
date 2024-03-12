@@ -3,7 +3,7 @@ import Icon from "./Icon.astro";
 import ThemeToggle from "./ThemeToggle.astro";
 import type { iconPaths } from "./IconPaths";
 import LanguagePicker from "./LanguagePicker.astro";
-import { getLangFromUrl, useTranslatedPath, useTranslations } from "../i18n/utils";
+import {getLangFromUrl, stripLang, useTranslatedPath, useTranslations} from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -58,11 +58,11 @@ const iconLinks: {
                                 "link",
                                 {
                                     active:
-                                        Astro.url.pathname === href ||
-                                        (href !== "/" &&
-                                            Astro.url.pathname.startsWith(
-                                                href,
-                                            )),
+                                      stripLang(Astro.url.pathname) ===  stripLang(href) ||
+                                      (stripLang(href) !== "/" &&
+                                        stripLang(Astro.url.pathname).startsWith(
+                                          stripLang(href),
+                                        )),
                                 },
                             ]}
                             href={href}
@@ -99,11 +99,11 @@ const iconLinks: {
                                 "link",
                                 {
                                     active:
-                                        Astro.url.pathname === href ||
-                                        (href !== "/" &&
-                                            Astro.url.pathname.startsWith(
-                                                href,
-                                            )),
+                                      stripLang(Astro.url.pathname) ===  stripLang(href) ||
+                                      (stripLang(href) !== "/" &&
+                                        stripLang(Astro.url.pathname).startsWith(
+                                          stripLang(href),
+                                        )),
                                 },
                             ]}
                             href={href}

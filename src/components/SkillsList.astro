@@ -1,44 +1,70 @@
 ---
 const skills = [
   {
-    title: 'Next.js',
-    logo: '/assets/logos/nextjs.svg'
+    title: 'Node.js',
+    logo: '/assets/logos/nodejs.png',
+    href: 'https://nodejs.org/'
+  },
+  {
+    title: 'NestJS',
+    logo: '/assets/logos/nestjs.svg',
+    href: 'https://nestjs.com/'
   },
   {
     title: 'Next.js',
-    logo: '/assets/logos/nextjs.svg'
+    logo: '/assets/logos/nextjs.svg',
+    href: 'https://nextjs.org/'
   },
   {
-    title: 'Next.js',
-    logo: '/assets/logos/nextjs.svg'
+    title: 'coolify',
+    logo: '/assets/logos/coolify.png',
+    href: 'https://coolify.io/'
   },
   {
-    title: 'Next.js',
-    logo: '/assets/logos/nextjs.svg'
+    title: 'React.js',
+    logo: '/assets/logos/reactjs.svg',
+    href: 'https://react.dev/'
   },
   {
-    title: 'Next.js',
-    logo: '/assets/logos/nextjs.svg'
+    title: 'Tanstack',
+    logo: '/assets/logos/tanstack.png',
+    href: 'https://tanstack.com/'
   },
   {
-    title: 'Next.js',
-    logo: '/assets/logos/nextjs.svg'
+    title: 'tRPC',
+    logo: '/assets/logos/trpc.svg',
+    href: 'https://trpc.io/'
+  },
+  {
+    title: 'ionic',
+    logo: '/assets/logos/ionic.svg',
+    href: 'https://ionicframework.com/'
+  },
+  {
+    title: 'capacitor',
+    logo: '/assets/logos/capacitor.png',
+    href: 'https://capacitorjs.com/'
+  },
+  {
+    title: 'tailwindcss',
+    logo: '/assets/logos/tailwind.svg',
+    href: 'https://tailwindcss.com/'
   },
 ]
 ---
 
 <ul class="skills">
   {skills.map(skill => (
-      <li class="skill">
-        <img
-          src={skill.logo}
-          alt={skill.title}
-          width={35}
-          height={35}
-        />
-        <p>
-          {skill.title}
-        </p>
+      <li>
+        <a class="skill" href={skill.href} target="_blank" rel="noopener noreferrer">
+          <img
+            src={skill.logo}
+            alt={skill.title}
+          />
+          <p>
+            {skill.title}
+          </p>
+        </a>
       </li>
   ))}
 </ul>
@@ -47,15 +73,29 @@ const skills = [
     .skills {
         list-style: none;
         padding: 0;
-        margin: 0;
-        gap: 1rem;
+        margin: 1rem 0 0 0;
+        gap: 2rem;
         display: flex;
+        align-items: baseline;
         flex-wrap: wrap;
+        a {
+            color: unset;
+            img {
+                max-height: 100%;
+            }
+        }
     }
     .skill {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: 40px;
+    }
+
+    @media (min-width: 80em) {
+        .skills {
+            gap: 1rem;
+        }
     }
 </style>
