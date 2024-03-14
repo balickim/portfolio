@@ -41,6 +41,7 @@ Dzięki zastosowanym technologiom, **Social Invest** zaoferował użytkownikom n
 
 ### Linki
 
-1. [Landing Page](https://socialinvest.pl/)
-2. [Aplikacja](https://app.socialinvest.pl/)
+1. [Github](https://github.com/balickim/barracuda)
+2. [Landing Page](https://socialinvest.pl/)
+3. [Aplikacja](https://app.socialinvest.pl/)
 

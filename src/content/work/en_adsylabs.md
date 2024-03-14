@@ -43,6 +43,7 @@ The project did not pass our market validation and was prematurely terminated.
 
 ### Links
 
-1. [First Landing Page](https://adsylabs-7zojz7e00-balickim.vercel.app/)
-2. [Second Landing Page](https://adsylabs-f12lqults-balickim.vercel.app/)
+1. [Github](https://github.com/balickim/adsylabs)
+2. [First Landing Page](https://adsylabs-7zojz7e00-balickim.vercel.app/)
+3. [Second Landing Page](https://adsylabs-f12lqults-balickim.vercel.app/)
 

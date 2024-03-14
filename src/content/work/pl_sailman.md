@@ -34,3 +34,7 @@ Projekt został zrealizowany przy użyciu nowoczesnych technologii i narzędzi. 
 Chociaż **Sailman** nie przetrwał na rynku, projekt ten stanowi ważny rozdział w mojej karierze deweloperskiej. Doświadczenia zdobyte podczas pracy nad tym ambitnym projektem - od projektowania interfejsu, przez rozwój funkcjonalności społecznościowych, aż po implementację wielojęzycznego interfejsu - są nieocenione. Uczyłem się na własnych błędach, doskonaląc swoje umiejętności w zakresie programowania, zarządzania projektem i adaptacji do zmieniających się wymagań rynku.
 
 Sailman był dowodem na to, że pasja i ciężka praca mogą przekształcić wizję w rzeczywistość, nawet jeśli ostateczny sukces nie jest gwarantowany. Każde doświadczenie buduje fundament pod przyszłe projekty, a lekcje wyciągnięte z Sailman są bezcennym atutem na mojej dalszej ścieżce zawodowej.
+
+### Linki
+
+1. [Github](https://github.com/balickim/sailman)

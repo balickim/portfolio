@@ -41,6 +41,7 @@ Thanks to the technologies applied, **Social Invest** offered users not just fun
 
 ### Links
 
-1. [Landing Page](https://socialinvest.pl/)
-2. [App](https://app.socialinvest.pl/)
+1. [Github](https://github.com/balickim/barracuda)
+2. [Landing Page](https://socialinvest.pl/)
+3. [App](https://app.socialinvest.pl/)
 

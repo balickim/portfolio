@@ -43,6 +43,7 @@ Projekt nie przeszedł naszej walidacji rynkowej i został przedwcześnie zakoń
 
 ### Linki
 
-1. [Pierwszy Landing Page](https://adsylabs-7zojz7e00-balickim.vercel.app/)
-2. [Drugi Landing Page](https://adsylabs-f12lqults-balickim.vercel.app/)
+1. [Github](https://github.com/balickim/adsylabs)
+2. [Pierwszy Landing Page](https://adsylabs-7zojz7e00-balickim.vercel.app/)
+3. [Drugi Landing Page](https://adsylabs-f12lqults-balickim.vercel.app/)
 

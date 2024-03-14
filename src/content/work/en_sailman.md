@@ -35,3 +35,6 @@ Although **Sailman** did not survive in the market, this project represents an i
 
 Sailman was proof that passion and hard work can turn a vision into reality, even if ultimate success is not guaranteed. Every experience builds a foundation for future projects, and the lessons learned from Sailman are a priceless asset on my further career path.
 
+### Links
+
+1. [Github](https://github.com/balickim/sailman)
